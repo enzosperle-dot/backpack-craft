@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# production builds
+.next/
+out/
+
+# netlify & vercel
+.netlify/
+.vercel/
+
+# env files (contêm credenciais)
+.env
+.env.local
+.env.*.local
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+
+# misc
+.DS_Store
+*.pem
